@@ -1,0 +1,23 @@
+{
+  "lib/forge-std": {
+    "tag": {
+      "name": "v1.17.0",
+      "rev": "f3dae6e6ee381f25eb6a246f7da9b85c91a68219"
+    }
+  },
+  "lib/hookmate": {
+    "tag": {
+      "name": "v0.6.0",
+      "rev": "ef3e9845e0b2bc9cd5810644d7d337b00c47bc75"
+    }
+  },
+  "lib/uniswap-hooks": {
+    "tag": {
+      "name": "v1.2.1",
+      "rev": "acbd604c409a827f7f98c9517236da860c4fca1a"
+    }
+  },
+  "lib/v4-hooks-public": {
+    "rev": "e354058156f8f4f1aff1594a932513e7064956c7"
+  }
+}
