@@ -235,10 +235,13 @@ cast send <oracle address> "setPrice(uint256)" 1150000000000000000 --rpc-url $RP
 
 ### Deployments
 
-| Network | Contract | Address |
-|---|---|---|
-| Base Sepolia | FlickHook | to be added |
-| Base Sepolia | EURC/USDC vault oracle | to be added |
+## Base Sepolia deployment
+
+| Contract | Address |
+| --- | --- |
+| FlickHook | [`0xD5cf8eF4fCFD019aD9eA7b6a62c956D9C26Ea880`](https://sepolia.basescan.org/address/0xD5cf8eF4fCFD019aD9eA7b6a62c956D9C26Ea880) |
+| MockFxOracle (EUR / USD) | [`0x224a966f4Bc0F66d9A501e0e6dD64158DdF19bC2`](https://sepolia.basescan.org/address/0x224a966f4Bc0F66d9A501e0e6dD64158DdF19bC2) |
+| EURC/USDC pool id | `0xfd46c9a0224ea1181b39243aae91d60d6da823d0469502131e155edbf0ab2f67` |
 
 ## Security
 
