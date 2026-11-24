@@ -278,8 +278,6 @@ A mock feed must be refreshed at least every 25 hours, or swaps stop:
 cast send <oracle address> "setPrice(uint256)" 1150000000000000000 --rpc-url $RPC --account flick
 ```
 
-[`GUIDE.md`](GUIDE.md) has the full walkthrough: a codebase tour, units cheat sheet, verification, and every action through `cast` or BaseScan.
-
 ### Repository layout
 
 ```
@@ -301,7 +299,6 @@ test/
   oracles/                        Oracle adapters
   integration/                    Hook, vault, recenter and security regressions
   utils/                          Shared test setup
-GUIDE.md                          Team guide: codebase tour, deploy, verify, test
 ```
 
 ---
